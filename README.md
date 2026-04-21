@@ -22,7 +22,7 @@ A simple Task Management System built with Symfony, featuring CRUD operations wi
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. Clone the repository:
 
@@ -51,6 +51,10 @@ cp .env .env.local
 5. Setup database:
 
 ```
+If using SQLite (default):
+php bin/console doctrine:migrations:migrate
+
+If using MySQL:
 php bin/console doctrine:database:create
 php bin/console doctrine:migrations:migrate
 ```
@@ -59,6 +63,8 @@ php bin/console doctrine:migrations:migrate
 
 ```
 symfony server:start
+or
+php -S localhost:8000 -t public
 ```
 
 ---
