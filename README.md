@@ -27,7 +27,7 @@ A simple Task Management System built with Symfony, featuring CRUD operations wi
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/diazjoshuaarga34/task-manager
 ```
 
 2. Go to project directory:
