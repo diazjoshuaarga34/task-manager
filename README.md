@@ -63,7 +63,9 @@ php bin/console doctrine:migrations:migrate
 
 ```
 symfony server:start
+```
 or
+```
 php -S localhost:8000 -t public
 ```
 
