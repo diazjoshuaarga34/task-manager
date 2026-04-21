@@ -49,12 +49,12 @@ cp .env .env.local
 ```
 
 5. Setup database:
-
-```
 If using SQLite (default):
+```
 php bin/console doctrine:migrations:migrate
-
+```
 If using MySQL:
+```
 php bin/console doctrine:database:create
 php bin/console doctrine:migrations:migrate
 ```
